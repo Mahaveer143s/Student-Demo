@@ -1,0 +1,74 @@
+body {
+    background-color: #f8f9fa;
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.navbar, .footer {
+    background-color: #343a40;
+    color: white;
+}
+
+.footer {
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.container {
+    margin-top: 20px;
+}
+.table-data{
+    height: 500px;
+    background-color: white;
+}
+
+.table img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.profile-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.choose-image-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+label{
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions a {
+    flex-grow: 1;
+}
+
+.action-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.form-group{
+    margin:20px 0px;
+}
